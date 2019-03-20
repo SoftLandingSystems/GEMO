@@ -1,0 +1,3 @@
+     A          R REFFILE                   TEXT('DEMO REFF FILE')
+     A            ITEM          10          COLHDG('ITEM')
+     A            QTY            1  0       COLHDG('QUANTITY')

@@ -1,0 +1,6 @@
+     FT102FL2 IF  E           K        DISK
+     C           *ENTRY    PLIST
+     C                     PARM           STRING  3
+     C*
+     C                     READ RECFRM                   15
+     C                     SETON                     LR

@@ -1,0 +1,8 @@
+Pgm Parm( &Pgm_Name )
+
+ Dcl &Pgm_Name   *Char   10
+
+  RmvMsg  PGMQ(*SAME (&Pgm_Name)) CLEAR(*ALL)
+  MonMsg Msgid(Cpf0000)
+
+EndPgm

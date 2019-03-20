@@ -1,0 +1,17 @@
+     A                                      UNIQUE
+     A          R EMPFMT                    TEXT( 'Employee' )
+     A            EMPID          7P         TEXT( 'Emp ID' )
+     A                                      COLHDG( 'Emp ID' )
+     A            EMPNAME       25A         TEXT( 'Emp Name' )
+     A                                      COLHDG( 'Emp Name' )
+     A            EMPTITLE      25A         TEXT( 'Emp Title' )
+     A                                      COLHDG( 'Emp Title' )
+     A            EMPDEPT        6A         TEXT( 'Dept ID' )
+     A                                      COLHDG( 'Dept ID' )
+     A            EMPSTS         1A         TEXT( 'Emp Status' )
+     A                                      COLHDG( 'Emp Status' )
+     A            EMPHDATE       8P         TEXT( 'Emp Hire Date' )
+     A                                      COLHDG( 'Emp Hire Date' )
+     A            EMPTDATE       8P         TEXT( 'Emp Term Date' )
+     A                                      COLHDG( 'Emp Term Date' )
+     A          K EMPID

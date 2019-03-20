@@ -1,0 +1,24 @@
+     A*  91/11/27  16:44:22    DILLON      REL-R03M00  5728-PW1
+     A                                      DSPSIZ(24 80 *DS3)
+     A                                      CF03(03 'EXIT')
+     A                                      PRINT
+     A          R DISPLAY
+     A*  91/11/27  16:44:22    DILLON      REL-R03M00  5728-PW1
+     A                                  1  2DATE
+     A                                      EDTCDE(Y)
+     A  40                              1 24'Murphys Marketing Inquiry'
+     A                                      DSPATR(HI)
+     A                                  1 64'SOFTLANDING INC.'
+     A                                  2  2TIME
+     A  40                              7 18'1. Do nothing'
+     A  40                              9 18'2. Same as 1 only twice as fast'
+     A  40                             11 18'3. Do something great! ** NOT AUTH-
+     A                                      ORIZED **'
+     A  40                             13 18'4. All of the above, with a pause -
+     A                                      to rest between options'
+     A N41                             18  2'Select option:'
+     A                                      COLOR(BLU)
+     A N41        SLT            2Y 0B 18 17RANGE(0 4)
+     A                                      EDTCDE(4)
+     A                                 23  2'F3=Exit'
+     A                                      COLOR(BLU)

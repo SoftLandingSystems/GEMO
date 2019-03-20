@@ -1,0 +1,7 @@
+     A                                      UNIQUE
+     A          R NEXTEMP                   TEXT( 'Next Employee' )
+     A            NEXTKEY        1A         TEXT( 'Next Key')
+     A                                      COLHDG( 'Next Key')
+     A            NEXTID         7P         TEXT( 'Next Emp ID' )
+     A                                      COLHDG( 'Next \mp ID' )
+     A          K NEXTKEY

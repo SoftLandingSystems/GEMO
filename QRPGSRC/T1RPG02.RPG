@@ -3,6 +3,8 @@
      C           *ENTRY    PLIST
      C                     PARM           STRING  3
      C*
+     C*
+     C*
      C                     READ RECFRM                   15
      C                     EXFMTDISPLAY
      C                     SETON                     LR
